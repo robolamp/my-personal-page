@@ -49,3 +49,30 @@
     width: 425px;
     text-align: left;
 }
+
+@media (max-width: 600px) {
+    .rterm {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 12px;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+
+    #term {
+        position: relative;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 0 auto;
+    }
+
+    .cursor {
+        font-size: 18px;
+    }
+
+    #termcli {
+        font-size: 18px;
+        word-break: break-word;
+    }
+}
