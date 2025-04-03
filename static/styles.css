@@ -1,3 +1,8 @@
+.upper-block{
+    width: 750px;
+    height: 405px;
+    background: #000000;
+}
 .gradient {
     background: #000000;
     background: linear-gradient(to bottom, #000000, #040421);
@@ -33,4 +38,24 @@ a:-webkit-any-link {
     text-decoration: none;
     color: #2D2D82;
     cursor: default;
+}
+@media (max-width: 600px) {
+    .black {
+        background: none;
+    }
+    .upper-block {
+        width: 100%;
+        height: auto;
+    }
+    .gradient {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: -1;
+      }
 }
