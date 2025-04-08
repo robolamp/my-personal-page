@@ -50,6 +50,6 @@
     "whoami": [
         "Hi! Welcome to my personal website"
     ],
-    "uname": "Yulia Yakoveva",
+    "uname": "Yulia Yakovleva",
     "upstart": ["uname", "whoami", "ls"]
 }
