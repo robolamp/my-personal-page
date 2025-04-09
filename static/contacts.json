@@ -20,7 +20,7 @@
           },
           "etc": {
             "hosts": "127.0.0.1 localhost",
-            "motd": "                       <br>    _/    _/  _/  _/   <br>   _/    _/      _/    <br>  _/_/_/_/  _/  _/     <br> _/    _/  _/          <br>_/    _/  _/  _/       <br><br>"
+            "motd": "==============================<br>░█░█░█▀▀░█░░░█▀▀░█▀█░█▄█░█▀▀░█<br>░█▄█░█▀▀░█░░░█░░░█░█░█░█░█▀▀░▀<br>░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀<br>LOCATION:  eu-west-4<br>UPTIME:    363 d, 08:17:33<br>LOAD AVG:  5.24  4.91  4.62<br>Scheduler: SLURM 23.11 | Running: 12 | Queued: 29<br>For support: robolamp@robolamp.me<br>=============================="
           },
           "usr": {
             "bin": {
@@ -49,10 +49,11 @@
           }
     },
     "whoami": [
-        "<br>I'm a software engineer and ML researcher currently based in Amsterdam.<br>",
-        "My current interests include AI, biology, alpine skiing, and wildlife photography.<br>",
-        "Favorite games: Disco Elysium, Cyberpunk 2077, and Go. I also like sci-fi, cyberpunk books and good graphic novels.<br>",
-        "My favorite colors are black, red and dark blue.<br>"
+        "<br>I'm a software engineer and ML researcher based in Amsterdam.<br>",
+        "Interested in AI, biology, alpine skiing, and wildlife photography.<br>",
+        "Favorite games: Disco Elysium, Stardew Valley, Cyberpunk 2077, and Go.<br>",
+        "I enjoy historical and biological non-fiction, sci-fi, cyberpunk, and good graphic novels.<br>",
+        "Favorite colors: black, red, and midnight blue.<br>"
     ],
     "uname": "Yulia Yakovleva",
     "upstart": ["cat /etc/motd", "uname", "whoami", "ls"]
