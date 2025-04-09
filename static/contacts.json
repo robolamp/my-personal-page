@@ -19,7 +19,8 @@
             "echo": "_command: prints a text"
           },
           "etc": {
-            "hosts": "127.0.0.1 localhost"
+            "hosts": "127.0.0.1 localhost",
+            "motd": "                       <br>    _/    _/  _/  _/   <br>   _/    _/      _/    <br>  _/_/_/_/  _/  _/     <br> _/    _/  _/          <br>_/    _/  _/  _/       <br><br>"
           },
           "usr": {
             "bin": {
@@ -48,8 +49,11 @@
           }
     },
     "whoami": [
-        "Hi! Welcome to my personal website"
+        "<br>I'm a software engineer and ML researcher currently based in Amsterdam.<br>",
+        "My current interests include AI, biology, alpine skiing, and wildlife photography.<br>",
+        "Favorite games: Disco Elysium, Cyberpunk 2077, and Go. I also like sci-fi, cyberpunk books and good graphic novels.<br>",
+        "My favorite colors are black, red and dark blue.<br>"
     ],
     "uname": "Yulia Yakovleva",
-    "upstart": ["uname", "whoami", "ls"]
+    "upstart": ["cat /etc/motd", "uname", "whoami", "ls"]
 }

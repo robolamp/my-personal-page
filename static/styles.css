@@ -1,12 +1,14 @@
 .upper-block{
     width: 750px;
-    height: 405px;
+    /* height: 405px; */
+    height: 100px;
     background: #000000;
 }
 .gradient {
     background: #000000;
     background: linear-gradient(to bottom, #000000, #040421);
-    height: calc(100vh - 478px);
+    /* height: calc(100vh - 478px); */
+    height: calc(100vh - 173px);
 }
 .black {
     background: #000000;

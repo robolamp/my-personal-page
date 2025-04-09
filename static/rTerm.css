@@ -34,6 +34,7 @@
     max-width:750px;
     font-size: 14px;
     font-family: monospace, sans-serif;
+    white-space: pre-wrap;
     color: #999999;
 }
 
@@ -57,6 +58,9 @@
         padding: 0 12px;
         box-sizing: border-box;
         font-size: 18px;
+        font-family: monospace, sans-serif;
+        white-space: pre-wrap;
+        color: #999999;
     }
 
     #term {
