@@ -10,28 +10,28 @@
 }
 
 @-moz-keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 1.0; }
-    100% { opacity: 0.0; }
+        0% { opacity: 1.0; }
+        50% { opacity: 1.0; }
+        100% { opacity: 0.0; }
     }
 
 @-webkit-keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 1.0; }
-    100% { opacity: 0.0; }
+        0% { opacity: 1.0; }
+        50% { opacity: 1.0; }
+        100% { opacity: 0.0; }
     }
 
 @keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 1.0; }
-    51% { opacity: 0.0; }
-    100% { opacity: 0.0; }
+        0% { opacity: 1.0; }
+        50% { opacity: 1.0; }
+        51% { opacity: 0.0; }
+        100% { opacity: 0.0; }
     }
 
 .rterm {
     display: inline-block;
-    width:750px;
-    max-width:750px;
+    width: 750px;
+    max-width: 750px;
     font-size: 14px;
     font-family: monospace, sans-serif;
     white-space: pre-wrap;
@@ -64,7 +64,9 @@
     }
 
     #term {
-        position: relative;
+        position: fixed;
+
+        /* position: relative; */
         width: 100%;
         font-size: 18px;
         line-height: 1.6;
