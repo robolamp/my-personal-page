@@ -61,16 +61,17 @@
         font-family: monospace, sans-serif;
         white-space: pre-wrap;
         color: #999999;
+        height: auto;       /* adapt to content or parent container */
+        overflow-y: auto;   /* if your terminal lines are very long, enable scrolling */
     }
 
     #term {
-        position: fixed;
-
-        /* position: relative; */
+        position: relative;
         width: 100%;
         font-size: 18px;
         line-height: 1.6;
         margin: 0 auto;
+        min-height: 200px;
     }
 
     .cursor {
