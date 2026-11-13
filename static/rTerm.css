@@ -39,15 +39,11 @@
 }
 
 #term {
-    position: fixed;
-
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-
-    min-height: 10em;
+    position: relative;
+    margin: 0 auto;
     width: 425px;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
     text-align: left;
 }
 
@@ -72,6 +68,8 @@
         line-height: 1.6;
         margin: 0 auto;
         min-height: 200px;
+        max-height: none;
+        overflow-y: visible;
     }
 
     .cursor {
