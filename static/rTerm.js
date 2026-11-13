@@ -144,6 +144,7 @@ rTerm = function (options) {
             document.getElementById("termcli").innerHTML = this.oldInput + this.termPrev +
               this.input;
         }
+        document.querySelector("#term .cursor").scrollIntoView({block: "nearest"});
     };
 
     // Delete the oldest sting
