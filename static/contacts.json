@@ -56,7 +56,7 @@
         "Favorite games: Disco Elysium, Stardew Valley, Cyberpunk 2077<br>",
         "Favorite books: Persepolis (Satrapi), Neuromancer (Gibson), An Evening with Claire (Gazdanov)<br>",
         "Favorite colors: black, red, white, and midnight blue<br>"
-    ]
+    ],
     "uname": "Yulia Yakovleva",
     "upstart": ["cat /etc/motd", "uname", "whoami", "ls"]
 }
