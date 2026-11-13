@@ -49,13 +49,14 @@
           }
     },
     "whoami": [
-        "<br>Hi! I'm Yulia!<br>",
-        "I live in Amsterdam and work as an ML engineer/researcher — I make neural networks (and other things) faster.<br>",
-        "Into wildlife photography, cycling, and writing.<br>",
-        "<br>",
-        "Favorite games: Disco Elysium, Stardew Valley, Cyberpunk 2077<br>",
-        "Favorite books: Persepolis (Satrapi), Neuromancer (Gibson), An Evening with Claire (Gazdanov)<br>",
-        "Favorite colors: black, red, white, and midnight blue<br>"
+        "",
+        "Hi! I'm Yulia!",
+        "I live in Amsterdam and work as an ML engineer/researcher — I make neural networks (and other things) faster.",
+        "Into wildlife photography, cycling, and writing.",
+        "",
+        "Favorite games: Disco Elysium, Stardew Valley, Cyberpunk 2077",
+        "Favorite books: Persepolis (Satrapi), Neuromancer (Gibson), An Evening with Claire (Gazdanov)",
+        "Favorite colors: black, red, white, and midnight blue"
     ],
     "uname": "Yulia Yakovleva",
     "upstart": ["cat /etc/motd", "uname", "whoami", "ls"]
